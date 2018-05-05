@@ -18,10 +18,10 @@ function whileLoop(n) {
 
 function doWhileLoop(array) {
   do {
-    array.shift()
     function maybeTrue() {
       return Math.random() >= 0.5
     }
+    array.shift()
     }
    while (array.length > 0 && maybeTrue())
 }
